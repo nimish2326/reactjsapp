@@ -1,0 +1,34 @@
+{
+  "name": "reactjsapp",
+  "version": "1.0.0",
+  "description": "Basics of React JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development --watch",
+    "prod": "webpack --mode production",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimish2326/reactjsapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nimish2326/reactjsapp/issues"
+  },
+  "homepage": "https://github.com/nimish2326/reactjsapp#readme",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.5.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
